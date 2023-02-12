@@ -1,0 +1,161 @@
+/*categoria-titulo */
+
+.principal-categoria-figuras {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9rem 5rem;
+    width: 80%;
+}
+
+.principal-categoria-figuras__titulo {
+
+    color: #464646;
+    font-size: 2.5rem;
+    font-weight: var(--negrita);
+}
+
+.principal-categoria-figuras__enlace {
+
+    background: url(../../../img/vector-icono.png) no-repeat right top;
+    background-size: 12%;
+    color: var(--color);
+    text-align: left;
+    text-decoration: none;
+    font-weight: var(--negrita);
+    width: 10%;
+}
+
+/*principal-figuras */
+
+.principal-figuras {
+
+    display: flex;
+    margin-bottom: 14rem;
+    margin: 0 7rem 14rem;
+}
+
+.principal-figuras__divisor-tarjeta {
+
+    margin: 0 1rem;
+    width: 100%;
+}
+
+.principal-figuras__divisor-tarjeta__imagen {
+
+    height: 150px;
+    width: 100%;
+}
+.principal-figuras__divisor-tarjeta__titulo {
+
+    color: #464646;
+    font-size: 1.2rem;
+    padding: .6rem 0;
+}
+
+.principal-figuras__divisor-tarjeta__precio {
+
+    font-size: 1.175rem;
+    font-weight: var(--negrita);
+    padding: .8rem 0;
+}
+
+.principal-figuras__divisor-tarjeta__enlace {
+
+    color: var(--color);
+    font-weight: var(--negrita);
+    text-decoration: none;
+}
+
+.principal-categoria-borde {
+
+    border: 5px solid var(--color);
+    transition: border 2s;
+}
+
+/*RESPONSIVE */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:0px) and (max-width: 767px) {
+
+    .principal-categoria-figuras {
+
+        align-items: center;
+        margin: 0 2.5rem 5rem;
+    }
+
+    .principal-categoria-figuras__enlace {
+
+        background: none;
+        width: 25%;
+    }
+
+    .principal-figuras {
+
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 1.5rem;
+    }
+    .principal-figuras__divisor-tarjeta {
+
+        margin-bottom: 6rem;
+        width: 36%;
+    }
+    .principal-figuras__divisor-tarjeta__titulo {
+
+        font-size: 1rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+    .principal-categoria-figuras {
+
+        margin: 0 6rem 5rem;
+    }
+
+    .principal-categoria-figuras__enlace {
+
+        width: 15%;
+    }
+
+    .principal-figuras {
+
+        flex-wrap: wrap;
+    }
+    .principal-figuras__divisor-tarjeta {
+
+        margin-bottom: 4rem;
+        width: 27%;
+    }
+    .principal-figuras__divisor-tarjeta__titulo {
+
+        font-size: 1rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */ 
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+    .principal-figuras {
+
+        flex-wrap: wrap;
+        margin-bottom: 6rem;
+    }
+    .principal-figuras__divisor-tarjeta {
+
+        margin-bottom: 6rem;
+        width: 15%;
+    }
+    .principal-figuras__divisor-tarjeta__titulo {
+
+        font-size: 1.2rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+
+
+}*/

@@ -1,0 +1,19 @@
+:root {
+
+    --fuente: 'Raleway', sans-serif;
+    --color: #2A7AE4;
+    --color-secundario: #badaff;
+    --titulo: 4rem;
+    --titulo-general-color: rgb(251, 251, 251);
+    --negrita: bolder;
+}
+
+body {
+
+    font-family: var(--fuente);
+}
+
+html {
+
+    scroll-behavior: smooth;
+}

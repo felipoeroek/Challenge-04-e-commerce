@@ -1,0 +1,95 @@
+.formulario-contacto {
+
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+.formulario-contacto__contenido {
+
+    margin: 0 40%;
+    text-align: center;
+}
+
+.formulario-contacto__contenido__titulo {
+
+    font-weight: var(--negrita);
+    padding-bottom: 2rem;
+}
+
+.formulario-contacto__contenido__nombre {
+
+    background-color: rgb(223, 220, 220);
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 4px;
+    display: block;
+    height: 7vh;
+    outline: none;
+    margin-bottom: 1.3rem;
+    padding: 1rem 1rem;
+    resize: none;
+    width: 88%;
+}
+
+.formulario-contacto__contenido__nombre::placeholder {
+
+    font-size: .8rem;
+}
+
+.formulario-contacto__contenido__boton {
+
+    background-color: var(--color);
+    border: none;
+    color: white;
+    font-weight: var(--negrita);
+    padding: 1rem 1rem;
+    width: 100%;
+}
+
+/* SPANS */
+
+.formulario-contacto__contenido__span {
+
+    color: red;
+    display: none;
+}
+
+/*RESPONSIVE */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:0px) and (max-width: 767px) {
+
+    .formulario-contacto__contenido {
+
+        margin: 0 23%;
+        width: 50%;
+    }
+
+    .formulario-contacto__contenido__nombre::placeholder {
+
+        font-size: .7rem;
+    }
+
+    .formulario-contacto__contenido__boton {
+
+        width: 90%;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */ 
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+    .formulario-contacto__contenido {
+
+        margin: 0 30%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */ 
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+    .formulario-contacto__contenido {
+
+        margin: 0 35%;
+    }
+}

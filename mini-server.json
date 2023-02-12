@@ -1,0 +1,112 @@
+{
+  "producto": [
+    {
+      "url": "../assets/img/z-poster.jpg",
+      "nombre": "Dragon ball z",
+      "precio": "2",
+      "id": "816722e3-e0b2-4377-87d5-25542b5dbb99"
+    },
+    {
+      "url": "../assets/img/tokyo-poster.jpg",
+      "nombre": "Tokyo ghoul",
+      "precio": "2",
+      "id": "b70e01e8-a5a8-4375-aa03-9464f0ef990c"
+    },
+    {
+      "url": "../assets/img/inuyasha-poster.jpg",
+      "nombre": "Inuyasha",
+      "precio": "2",
+      "id": "6ce71899-56fe-4172-87f4-d4ca64eea95e"
+    },
+    {
+      "url": "../assets/img/orange-poster.jpg",
+      "nombre": "Orange",
+      "precio": "2",
+      "id": "a6747f44-c641-4dcd-86bf-06b9f1f34eba"
+    },
+    {
+      "url": "../assets/img/kimi-poster.jpg",
+      "nombre": "Kimi ni todoke",
+      "precio": "2",
+      "id": "c54ccaf2-1f98-4717-8aa2-c207cb0a9804"
+    },
+    {
+      "url": "../assets/img/naruto-poster.jpg",
+      "nombre": "Naruto",
+      "precio": "2",
+      "id": "8aaa504f-ef27-49f4-a6a1-fbf6ae4157f8"
+    },
+    {
+      "url": "../assets/img/cup-yaiba.jpg",
+      "nombre": "Kimetsu no yaiba",
+      "precio": "3",
+      "id": "9bfdb80c-01e4-450c-a371-59d4e7aaba09"
+    },
+    {
+      "url": "../assets/img/cup-titanes.jpg",
+      "nombre": "Attack on titan",
+      "precio": "3",
+      "id": "1feb6dd3-3aa5-4f78-a59a-e92828381b4a"
+    },
+    {
+      "url": "../assets/img/cup-bleach.jpg",
+      "nombre": "Bleach",
+      "precio": "3",
+      "id": "396d3712-2bc7-4781-a781-e7323f9e6c4a"
+    },
+    {
+      "url": "../assets/img/cup-revengers.jpg",
+      "nombre": "Tokyo revengers",
+      "precio": "3",
+      "id": "a3d13446-bbe1-4b6e-bd4e-2d36923900d9"
+    },
+    {
+      "url": "../assets/img/cup-ghoul.png",
+      "nombre": "Tokyo ghoul",
+      "precio": "3",
+      "id": "c920af2a-ed1c-4b25-ac38-b23e5388b146"
+    },
+    {
+      "url": "../assets/img/cup-punch.jpg",
+      "nombre": "One punch man",
+      "precio": "3",
+      "id": "39f64377-c6e0-4cc4-b2d9-f631f1a664e8"
+    },
+    {
+      "url": "../assets/img/figure-mai.jpg",
+      "nombre": "Mai",
+      "precio": "20",
+      "id": "03cbf62a-1636-44d1-aa59-35de31880c5e"
+    },
+    {
+      "url": "../assets/img/figure-l.jpg",
+      "nombre": "L-death note",
+      "precio": "20",
+      "id": "0971e866-87e4-471c-9b3e-27c831d189c2"
+    },
+    {
+      "url": "../assets/img/figure-naruto.jpg",
+      "nombre": "Naruto",
+      "precio": "20",
+      "id": "de8aecb6-0211-409f-af98-477d01a47944"
+    },
+    {
+      "url": "../assets/img/figure-yaiba.jpg",
+      "nombre": "Shinobu",
+      "precio": "20",
+      "id": "50e487e4-3207-4c72-9234-b84754029be6"
+    },
+    {
+      "url": "../assets/img/figure-vegeta.jpg",
+      "nombre": "Vegeta",
+      "precio": "20",
+      "id": "9039f08e-43c6-4ed8-9e81-3ac06a5908b1"
+    },
+    {
+      "url": "../assets/img/figure-dragonbal.jpg",
+      "nombre": "Goku",
+      "precio": "20",
+      "id": "28ea0b7e-8f12-4f67-ab68-ed0d24e450d4"
+    }
+  ]
+}
